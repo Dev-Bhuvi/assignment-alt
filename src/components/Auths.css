@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.loginbackground{
+    width:100%;
+    height:100%;
+    background: #FFF9F9;
+
+}
+.signinbtn{
+    background: #292929;
+    color:#fff;
+    padding: 12px 50px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+.loginbg{
+    height:100vh;
+}
+.taskbuddy{
+    width:135px;
+}
+.logincard p{
+    font-size:14px;
+}
+
+@media screen and (max-width: 768px) {
+    .mobhide{
+        display:none !important;
+    }
+    .loginbackground {
+        text-align: center;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background: url(../images/mobile_bg_onboard.png);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .signinbtn{
+        padding: 12px 35px;
+    }
+}
